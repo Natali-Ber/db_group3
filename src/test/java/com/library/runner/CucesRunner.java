@@ -12,9 +12,9 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
         features="src/test/resources/features/Natali",
-        glue = "com/cydeo/step_definitions/Natali",
-        dryRun = false,
-        tags =  "@US1",
+        glue = "com/library/step_definitions/Natali",
+        dryRun = true,
+        tags =  "@US2",
         publish = true
 )
 public class CucesRunner {
